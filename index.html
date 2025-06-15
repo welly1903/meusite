@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="meusite.css"/> <!-- linka o arquivo de CSS externo -->
+</head>
+<body>
+    <header> <!-- cabeçalho da página -->
+        <nav> <!-- área de navegação (menu com links) -->
+            <h1>Meu Portifólio Pessoal</h1> 
+            <ul> <!--lista de itens (menu) -->
+                <li><a href="#sobre"> Sobre Mim </a></li> <!-- links para seções da própria página -->
+                <li><a href="#formacao"> Formação Educacional e Idiomas </a></li>
+                <li><a href="#portifolio"> Portifólio </a></li>
+                <li><a href="#contato"> Contato </a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <!-- separa as partes do conteúdo em blocos semânticos -->
+    <section class="destaque">
+        <h2> Olá, Mundo! Eu sou o Wellington Rambo Ely </h2>
+    </section>
+
+    <section id="sobre">
+        <h2> Sobre Mim </h2>
+        <p> Como você já sabe o meu nome, agora vou te contar um pouco da minha história. tenho 25 anos, atualmente estou trabalhando na área de refrigeração, mas a pouco tempo atrás já fui um jogador profissional de Esports no jogo PUBG. Comecei minha carreira neste jogo no começo de 2017 logo após terminar o ensino médio, mas só na metade de 2018 que o jogo começou a se profissionalizar, tranquei a faculdade que estava fazendo (Ciências da Computação) para conseguir me dedicar totalmente. <br> No início de 2020 realizei meu sonho de adolescente, representar uma das maiores organizações de Esports do cenário (Red Canids), fui contrato pelo melhor time da época, juntos conquistamos 2 campeonatos     sul-americanos valendo vaga para os mundiais (mais um sonho realizado), Um aconteceu na Suécia em Estocolmo (GLL S4) e o outro que seria em Los Angeles nos Estados Unidos foi cancelado devido a pandemia.<br> Em Abril de 2020 já não faziamos mais parte da Red Canids e por conta da pandemia não estava acontecendo campeonatos presenciais, porém em outubro surgiu a melhor notícia possível, como fomos um dos melhores times do ano, convidaram-nos para participar de um mundial na Coreia do Sul que daria ínicio em janeiro de 2021 e terminaria no final de março ou seja ficamos quase 3 meses por lá e junto a isso a Fúria que na época era a maior organização brasileira nos contratou.<br> Após isso tudo entre altos e baixos continuei jogando até o final de 2024 o momento em que decidi me aposentar do jogo, foram 7 anos de muita dedicação, conquistei 5 títulos sul-americanos, participei de 2 mundiais e fui indicado ao prêmio Esports Brasil 2021 como um dos melhores jogadores de Battle Royale. </p>
+        <br>
+        <div class="imagens">
+            <img src="imagens/entrevista.jpg" alt="Imagem 1"/> <!-- exibe imagens com texto alternativo -->
+            <img src="imagens/concentrado.jpg" alt="Imagem 2"/>
+            <img src="imagens/treinando.JPEG" alt="Imagem 3"/>
+            <img src="imagens/timefuria.jpg" alt="Imagem 4"/>
+            <img src="imagens/indicados.jpg" alt="Imagem 5"/>
+        </div>
+    </section>
+
+    <section id="formacao">
+        <h2> Formação Educacional e Idiomas </h2>
+        <p> Me formei no Ensino Médio em 2016 pela I.E.E São Francisco Solano, Não Me Toque, RS, em julho de 2017 integrei a Universidade de Passo Fundo (UPF) para realizar o curso de Ciência da Computação, porém tranquei o curso em junho de 2018.<br> Em 2019 me formei no curso de Inglês pela Wizard.<br> No começo de 2022 finalizei um curso de DJ na escola beadj do professor Marcos Deon, referência na música eletrônica de Passo Fundo e Região.<br> Na metade 2024 já cogitando encerrar minha carreira no Esports e sem saber o que fazer, comecei um curso para certificações bancárias, fiz apenas a CPA-10, porém logo desisti de seguir nesse ramo. Atualmente estou cursando Análise e Desenvolvimento de Sistemas EAD pela UNINTER. </p>
+        <br>
+        <div class="imagens2">
+            <img src="imagens/cursoingles.jpg" alt="Imagem 1"/> <!-- exibe imagens com texto alternativo -->
+            <img src="imagens/anbimacpa10.png" alt="Imagem 2"/>
+            <img src="imagens/cursodj.png"alt="Imagem 3"/>
+
+        </div>
+    </section>
+
+    <section id="portifolio">
+        <h2> Portifólio </h2>
+        <br>
+        <div class="container">
+        <p> Aqui está um trabalho recente que fiz em python para a matéria de Lógica de Programação e Algoritmos! </p>
+        <a href="Wellington Ely LPA Modulo A.docx" download>Baixar Trabalho de LPA</a> <!-- link para baixar o trabalho -->
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2> Contato </h2>
+        <form id="contatoform"> 
+           <input type="text" name="nome" placeholder="Seu Nome" required /> <!-- cria o formulário de contato -->
+           <input type="email" name="email" placeholder="Seu Email" required />
+           <textarea name="mensagem" placeholder="Escreva uma Mensagem" required ></textarea>
+           <button type="submit"> Enviar </button>
+        </form> 
+    </section>
+
+    <footer> <!-- rodapé -->
+        <p> Todos os direitos reservados - Wellington Rambo Ely </p>
+    </footer>
+     <script src="meusite.js"></script> <!-- arquivo JavaScript externo para funcionalidades dinâmicas -->
+</body>
+</html>
